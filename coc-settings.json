@@ -1,0 +1,27 @@
+{
+  "rust-analyzer.enableCargoWatchOnStartup": "enabled",
+  "python.jediEnabled": false,
+  "python.linting.pylintEnabled": false,
+  "python.linting.flake8Enabled": true,
+  "python.linting.enabled": true,
+  "python.linting.flake8Args": [ "--ignore=E501,W503" ],
+  "python.formatting.blackPath": ".venv/bin/black",
+  "python.formatting.provider": "autopep8",
+  "coc.preferences.formatOnSaveFiletypes": ["python", "go"],
+  "explorer.icon.enableVimDevicons": true,
+  "explorer.icon.enableNerdfont": true,
+  "explorer.keyMappings.global": {
+    "rm": "rename",
+    "af": "addFile",
+    "ad": "addDirectory"
+  },
+  "coc.preferences.formatOnType": true,
+  "snippets.ultisnips.usePythonx": false,
+  "languageserver": {
+    "golang": {
+      "command": "gopls",
+      "rootPatterns": ["go.mod", ".vim/", ".git/", ".hg/"],
+      "filetypes": ["go"]
+    }
+  }
+}

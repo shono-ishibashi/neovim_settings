@@ -1,0 +1,80 @@
+# syntax for TOML
+[[plugins]]
+repo = "cespare/vim-toml"
+
+# syntax for Vue/Nuxt
+[[plugins]]
+repo = "posva/vim-vue"
+
+# syntax for Stylus
+[[plugins]]
+repo = "wavded/vim-stylus"
+
+# Status Line
+[[plugins]]
+repo = "itchyny/lightline.vim"
+hook_add = """
+source ~/.config/nvim/plugins/lightline.rc.vim
+"""
+
+# LSP(Language Server Protocol)
+[[plugins]]
+repo = "neoclide/coc.nvim"
+merged = 0
+rev = "release"
+hook_add = """
+source ~/.config/nvim/plugins/coc.rc.vim
+"""
+
+##############################
+# Dark Power plugins #########
+##############################
+# File explorer
+[[plugins]]
+repo = "Shougo/defx.nvim"
+depends = ["defx-git"]
+hook_add = """
+source ~/.config/nvim/plugins/defx.rc.vim
+"""
+
+[[plugins]]
+repo ="kristijanhusak/defx-git"
+hook_add = """
+source ~/.config/nvim/plugins/defx-git.rc.vim
+"""
+
+# Asynchronous unite all interfaces
+[[plugins]]
+repo = "Shougo/denite.nvim"
+hook_add = """
+source ~/.config/nvim/plugins/denite.rc.vim
+"""
+
+# Shell interfaces
+[[plugins]]
+repo = "shougo/deol.nvim"
+hook_add = """
+source ~/.config/nvim/plugins/deol.rc.vim
+"""
+
+##############################
+# Theme ######################
+##############################
+[[plugins]]
+repo = "morhetz/gruvbox"
+
+[[plugins]]
+repo = "ayu-theme/ayu-vim"
+
+[[plugins]]
+repo = "joshdick/onedark.vim"
+
+
+[[plugins]]
+repo = 'ryanoasis/vim-devicons'
+
+[[plugins]]
+repo = 'miyakogi/seiya.vim'
+
+[[plugins]]
+repo = 'thinca/vim-quickrun'
