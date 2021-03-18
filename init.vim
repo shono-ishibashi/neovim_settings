@@ -22,3 +22,8 @@ set nowritebackup
 set pumblend=30
 
 autocmd BufWritePre *.go :silent call CocAction('runCommand', 'editor.action.organizeImport')
+let g:python_indent = '    '
+let g:python_style = 'google'
+
+autocmd FocusGained * set transparency=220
+autocmd FocusLost * set transparency=0
