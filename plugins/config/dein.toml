@@ -80,3 +80,6 @@ repo = 'thinca/vim-quickrun'
 
 [[plugins]]
 repo = 'heavenshell/vim-pydocstring'
+
+[[plugins]]
+repo = 'tpope/vim-fugitive'
