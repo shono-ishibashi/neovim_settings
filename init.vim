@@ -54,3 +54,6 @@ autocmd FocusLost * execute('hi NonText '.g:InactiveBackGround)
 autocmd FocusLost * execute('hi SpecialKey '.g:InactiveBackGround)
 autocmd FocusLost * execute('hi EndOfBuffer '.g:InactiveBackGround)
 augroup end
+
+let g:winresizer_vert_resize = 1
+let g:winresizer_horiz_resize = 1
