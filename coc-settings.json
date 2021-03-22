@@ -10,6 +10,7 @@
   "coc.preferences.formatOnSaveFiletypes": ["python", "go"],
   "explorer.icon.enableVimDevicons": true,
   "explorer.icon.enableNerdfont": true,
+  "explorer.file.showHiddenFiles": true,
   "explorer.keyMappings.global": {
     "rm": "rename",
     "af": "addFile",

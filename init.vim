@@ -25,6 +25,9 @@ autocmd BufWritePre *.go :silent call CocAction('runCommand', 'editor.action.org
 let g:python_indent = '    '
 let g:python_style = 'google'
 
+let g:python3_host_prog = '/usr/bin/python3'
+let g:python_host_prog = '/usr/bin/python'
+
 "init.vim
 "フォーカスしていない時の背景色(23を好きな値・色に変更)
 let g:InactiveBackGround = 'ctermbg=23'
