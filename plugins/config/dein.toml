@@ -57,6 +57,12 @@ hook_add = """
 source ~/.config/nvim/plugins/deol.rc.vim
 """
 
+[[plugins]]
+repo = "vim-airline/vim-airline"
+
+[[plugins]]
+repo = "vim-airline/vim-airline-theme"
+
 ##############################
 # Theme ######################
 ##############################
@@ -69,7 +75,6 @@ repo = "ayu-theme/ayu-vim"
 [[plugins]]
 repo = "joshdick/onedark.vim"
 
-
 [[plugins]]
 repo = 'ryanoasis/vim-devicons'
 
@@ -78,3 +83,9 @@ repo = 'miyakogi/seiya.vim'
 
 [[plugins]]
 repo = 'thinca/vim-quickrun'
+
+[[plugins]]
+repo = 'heavenshell/vim-pydocstring'
+
+[[plugins]]
+repo = 'tpope/vim-fugitive'
