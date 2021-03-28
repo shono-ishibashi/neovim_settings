@@ -55,5 +55,8 @@ autocmd FocusLost * execute('hi SpecialKey '.g:InactiveBackGround)
 autocmd FocusLost * execute('hi EndOfBuffer '.g:InactiveBackGround)
 augroup end
 
-let g:winresizer_vert_resize = 1
-let g:winresizer_horiz_resize = 1
+let g:winresizer_vert_resize = 3
+let g:winresizer_horiz_resize = 3
+
+let g:pydocstring_doq_path = '/Users/shono/.pyenv/shims/doq'
+let g:pydocstring_doq_formatter = 'Google'

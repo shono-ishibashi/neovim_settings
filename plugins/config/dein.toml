@@ -61,9 +61,6 @@ source ~/.config/nvim/plugins/deol.rc.vim
 repo = "vim-airline/vim-airline"
 
 [[plugins]]
-repo = "vim-airline/vim-airline-theme"
-
-[[plugins]]
 repo = "simeji/winresizer"
 
 ##############################
